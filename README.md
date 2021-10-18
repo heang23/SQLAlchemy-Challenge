@@ -2,19 +2,17 @@
 
 ![surfs-up.png](Images/surfs-up.png)
 
-Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii! To help with your trip planning, you need to do some climate analysis on the area. The following outlines what you need to do.
+A climate analysis to for aiding the planning trip in Honolulu, Hawaii! The analysis consists of:
 
-## Step 1 - Climate Analysis and Exploration
+- Cilmate anaysis and Exploration: use Python and SQLAlchemy to do basic climate analysis and data exploration of your climate database. All of the following analysis should be completed using SQLAlchemy ORM queries, Pandas, and Matplotlib.
 
-To begin, use Python and SQLAlchemy to do basic climate analysis and data exploration of your climate database. All of the following analysis should be completed using SQLAlchemy ORM queries, Pandas, and Matplotlib.
+- Assumption:
 
-* Use the provided [starter notebook](climate_starter.ipynb) and [hawaii.sqlite](Resources/hawaii.sqlite) files to complete your climate analysis and data exploration.
+* I have chose a vacation range with approximately 3-15 days in total.
 
-* Choose a start date and end date for your trip. Make sure that your vacation range is approximately 3-15 days total.
+* I used SQLAlchemy `create_engine` to connect to my sqlite database.
 
-* Use SQLAlchemy `create_engine` to connect to your sqlite database.
-
-* Use SQLAlchemy `automap_base()` to reflect your tables into classes and save a reference to those classes called `Station` and `Measurement`.
+* I used SQLAlchemy `automap_base()` to reflect my tables into classes and save a reference to those classes called `Station` and `Measurement`.
 
 ### Precipitation Analysis
 
